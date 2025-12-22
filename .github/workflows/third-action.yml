@@ -9,4 +9,4 @@ jobs:
       - name: Second Step
         run: |
           echo "first line"
-          echo "second line:
+          echo "second line"
