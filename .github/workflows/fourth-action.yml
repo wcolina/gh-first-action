@@ -1,0 +1,17 @@
+name: Fourth Action
+on: workflow_dispatch
+jobs:
+  First-Job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First Step
+        run: echo "First Step"
+  Second-Job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First step of second job
+        run: echo "1er step"
+      - name: Second step of second job
+        run: |
+            echo "1er step"
+            echo "2do step"
